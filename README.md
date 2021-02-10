@@ -16,7 +16,9 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
    1- Upload the dataset to use within the experiment:
    
    ![alt_text](BankMarketingDataset.png)
-    
+   
+### Deploy model in Azure ML Studio
+
    2- Create and run an AutoML run from the Azure AutomationML section and once it's completed, select the best model and deploy it via the Deploy button:
    
    ![alt_text](CompletedExperiment.png)
@@ -26,8 +28,10 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
    ![alt_text](BestModel.png)
    
    #Add finished Deployment screenshot
+   
    4- Visit the Azure endpoint section to explore the endpoint created
-    #Add the created endpoint screenshot
+   
+   #Add the created endpoint screenshot
    
    5- Enable "Application Insights" using Python Azure SDK and run it to see the logs:
    
@@ -35,10 +39,12 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
   
    ![alt_text](RunnedLogScript.png)
    
-   
+### Publish an ML Pipeline
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+## A short description of how to improve the project in the future
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
