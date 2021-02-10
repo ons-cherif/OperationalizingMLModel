@@ -27,6 +27,7 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
    
    #Add finished Deployment screenshot
    4- Visit the Azure endpoint section to explore the endpoint created
+    #Add the created endpoint screenshot
    
    5- Enable "Application Insights" using Python Azure SDK and run it to see the logs:
    
@@ -34,7 +35,6 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
   
    ![alt_text](RunnedLogScript.png)
    
-   ![alt_text](BankMarketingDataset.png)
    
 
 ## Screen Recording
