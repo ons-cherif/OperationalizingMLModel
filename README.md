@@ -21,6 +21,8 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
 
    2- Create and run an AutoML run from the Azure AutomationML section and once it's completed, select the best model and deploy it via the Deploy button:
    
+   ![alt_text](AutoMLCreated.png)
+   
    ![alt_text](CompletedExperiment.png)
    
    ![alt_text](AdditionalConfigFroMLExperiment.png)
