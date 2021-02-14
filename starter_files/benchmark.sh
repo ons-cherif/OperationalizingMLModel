@@ -9,8 +9,8 @@
 # POST /score HTTP/1.0
 # Content-length: 812
 # Content-type: application/json
-# Authorization: Bearer Agb3D23IygXXXXXXXXXXXXXXXXXXXXXXXXX
-# Host: 8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io
+# Authorization: Bearer PLVJfsvOBubcF5EHF8MYOK5dsyPBjcXq
+# Host: http://a3459ef1-4d48-4e28-80e2-f316d510074d.southcentralus.azurecontainer.io/score
 # User-Agent: ApacheBench/2.3
 # Accept: */*
 #
@@ -70,4 +70,4 @@
 # Total:        114  160  28.0    172     199#
 
 
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer REPLACE_WITH_KEY' http://REPLACE_WITH_API_URL/score
+ ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer PLVJfsvOBubcF5EHF8MYOK5dsyPBjcXq ' http://a3459ef1-4d48-4e28-80e2-f316d510074d.southcentralus.azurecontainer.io/score
