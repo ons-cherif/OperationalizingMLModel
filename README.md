@@ -49,5 +49,8 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
 
 ## A short description of how to improve the project in the future
 
+1 - Consider giving more time for training the model since we were rrestricted to one hour within this project.
+
+
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
