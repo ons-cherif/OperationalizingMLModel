@@ -15,28 +15,35 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
 ### Deploy model in Azure ML Studio
 
-   2- Submit and complete an AutoML run from the Azure AutomationML section, then deploy the best model and deploy it via the Deploy button:
+   2- Submit and complete an AutoML run from the Azure AutomationML section, then deploy the best model:
    
+   ![alt_text](Screenshots/AutoMLCreated.png)
    
-   ![alt_text](Screenshots/Screenshots/Screenshots/Screenshots/AutoMLCreated.png)
+   ![alt_text](Screenshots/CompletedExperiment.png)
    
-   ![alt_text](Screenshots/Screenshots/Screenshots/CompletedExperiment.png)
-   
-   ![alt_text]Screenshots/Screenshots/(Screenshots/Screenshots/AdditionalConfigFroMLExperiment.png)
+   ![alt_text](Screenshots/AdditionalConfigFroMLExperiment.png)
    
    ![alt_text](Screenshots/BestModel.png)
    
-   #Add finished Deployment screenshot
+   3- Enable "Application Insights" using Python Azure SDK and the logs.py script, then verify it via the the portal within the endpoints section:
    
-   4- Visit the Azure endpoint section to explore the endpoint created
-   
-   #Add the created endpoint screenshot
-   
-   5- Enable "Application Insights" using Python Azure SDK and run it to see the logs:
-   
-   ![alt_text](Screenshots/Screenshots/EnabledAppInsights.png)
-  
    ![alt_text](Screenshots/RunnedLogScript.png)
+   
+   ![alt_text](Screenshots/EnabledAppInsights.png)
+   
+   #### 4- Swagger:
+   
+     **- Activate Swagger by running swagger.sh**, and because we don't have perimissions to use the port number _80_ we need to choose another one above _8000_, in my case it's _9001_
+   
+   ![alt_text](Screenshots/RunningSwagger.png)
+   
+   
+       **- then create an HTTP server to expose the current working directory via the serve.py script:
+       
+   ![alt_text](Screenshots/RunServe.png)
+   
+   
+  
    
 ### Publish an ML Pipeline
 
