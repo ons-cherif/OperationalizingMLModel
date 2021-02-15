@@ -11,7 +11,7 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
 ## Key Steps
    1- Upload the dataset to use within the experiment:
    
-   ![alt_text](BankMarketingDataset.png)
+   ![alt_text](Screenshots/BankMarketingDataset.png)
    
 ### Deploy model in Azure ML Studio
 
