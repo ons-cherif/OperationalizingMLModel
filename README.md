@@ -13,9 +13,9 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    ![alt_text](Screenshots/BankMarketingDataset.png)
    
-### Deploy model in Azure ML Studio
+#### 2- Deploy model in Azure ML Studio
 
-   2- Submit and complete an AutoML run from the Azure AutomationML section, then deploy the best model:
+   **- Submit and complete an AutoML run from the Azure AutomationML section:**
    
    ![alt_text](Screenshots/AutoMLCreated.png)
    
@@ -25,25 +25,47 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    ![alt_text](Screenshots/BestModel.png)
    
-   3- Enable "Application Insights" using Python Azure SDK and the logs.py script, then verify it via the the portal within the endpoints section:
+   **- Deploy the best model and enable "Application Insights"** using Python Azure SDK and the logs.py script, and verify it via the _endpoints_ section:
    
    ![alt_text](Screenshots/RunnedLogScript.png)
    
    ![alt_text](Screenshots/EnabledAppInsights.png)
    
-   #### 4- Swagger:
+   #### 4- Swagger Documentation:
    
-     **- Activate Swagger by running swagger.sh**, and because we don't have perimissions to use the port number _80_ we need to choose another one above _8000_, in my case it's _9001_
+   **- Activate Swagger by running _swagger.sh_ script**: Because we don't have perimissions to use the port _80_ we need to choose another above the _8000_ port, in my case it's _9001_:
    
    ![alt_text](Screenshots/RunningSwagger.png)
    
    
-       **- then create an HTTP server to expose the current working directory via the serve.py script:
+   **- Create an HTTP server** to expose the current working directory via the _serve.py_ script:
+   
        
    ![alt_text](Screenshots/RunServe.png)
    
    
-  
+   **- Visit the Swagger UI** and use the http://localhost:8000/swagger.json to explore the endpoint created earlier:
+   
+   ![alt_text](Screenshots/SwaggerDeployedModel.png)
+   
+   #### 5- Consume Model Endpoints:
+   
+   **- Using endpoint.py script**: First, change the Scoring Uri and the key by the ones provided within the _Details_ and _Consume_ tabs from the _Endpoints_ section, then test it, the result will be:
+   
+   ![alt_text](Screenshots/EndpointResult.png)
+   
+   **- Using benchmark.sh script**: As explained above, after changing the Uri and the key, run the benchmark.sh to visualize the HTTP requests from the created endpoint: 
+   
+   ![alt_text](Screenshots/ApacheFromBenchmark.png)
+   
+   ![alt_text](Screenshots/ApacheFromBenchmark2.png)
+   
+   ![alt_text](Screenshots/ApacheResult.png)
+   
+   
+   #### 6- Create, Publish and Consume a Pipeline:
+   
+   
    
 ### Publish an ML Pipeline
 
