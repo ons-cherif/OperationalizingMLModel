@@ -18,13 +18,13 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    2- Submit and complete an AutoML run from the Azure AutomationML section, then deploy the best model and deploy it via the Deploy button:
    
    
-   ![alt_text](AutoMLCreated.png)
+   ![alt_text](Screenshots/Screenshots/Screenshots/Screenshots/AutoMLCreated.png)
    
-   ![alt_text](CompletedExperiment.png)
+   ![alt_text](Screenshots/Screenshots/Screenshots/CompletedExperiment.png)
    
-   ![alt_text](AdditionalConfigFroMLExperiment.png)
+   ![alt_text]Screenshots/Screenshots/(Screenshots/Screenshots/AdditionalConfigFroMLExperiment.png)
    
-   ![alt_text](BestModel.png)
+   ![alt_text](Screenshots/BestModel.png)
    
    #Add finished Deployment screenshot
    
@@ -34,9 +34,9 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    5- Enable "Application Insights" using Python Azure SDK and run it to see the logs:
    
-   ![alt_text](EnabledAppInsights.png)
+   ![alt_text](Screenshots/Screenshots/EnabledAppInsights.png)
   
-   ![alt_text](RunnedLogScript.png)
+   ![alt_text](Screenshots/RunnedLogScript.png)
    
 ### Publish an ML Pipeline
 
