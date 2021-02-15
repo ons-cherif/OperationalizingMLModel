@@ -43,7 +43,6 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    ![alt_text](Screenshots/RunningSwagger.png)
    
-   
    **- Create an HTTP server** to expose the current working directory via the _serve.py_ script:
    
    ![alt_text](Screenshots/RunServe.png)
@@ -82,7 +81,9 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    **- Bankmarketing dataset with the AutoML module:** 
    
+   
    ![alt_text](Screenshots/DataSetWithAzureMLModels.png)
+   
    
    ![alt_text](Screenshots/DataSetWithAzureMLModelsDetails.png)
    
