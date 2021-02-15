@@ -59,7 +59,7 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    **- Using benchmark.sh script**: As explained above, after changing the Uri and the key, run the benchmark.sh to visualize the HTTP requests from the created endpoint: 
    
-   ![alt_text](Screenshots/ApachFromBenchmark.png)
+   ![alt_text](Screenshots/ApachFromBenchMark.png)
    
    ![alt_text](Screenshots/ApachFromBenchMark2.png)
    
