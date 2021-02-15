@@ -1,16 +1,12 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
 # Operationalizing Machine Learning Model
 
 ## Overview 
 
-This project is part of the Udacity Azure ML Nanodegree. In this project, we Deploy a Model, configure logging and consume its endpoint by providing an URI and a key using consume tab under Model pane within the endpoint section on Azure ML. This model is then compared to an Azure ML SDK implementation of the same steps.
+This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Model, configure logging and consume its endpoint by providing a URI and a key using consume tab under the Model pane within the endpoint section on Azure ML. This model is then compared to an Azure ML SDK implementation of the same steps.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
-![alt_text](ArchitecturalDiagram.png)
+![alt_text](Screenshots/ArchitecturalDiagram.png)
 
 ## Key Steps
    1- Upload the dataset to use within the experiment:
@@ -22,13 +18,13 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
    2- Submit and complete an AutoML run from the Azure AutomationML section, then deploy the best model and deploy it via the Deploy button:
    
    
-   ![alt_text](AutoMLCreated.png)
+   ![alt_text](Screenshots/Screenshots/Screenshots/Screenshots/AutoMLCreated.png)
    
-   ![alt_text](CompletedExperiment.png)
+   ![alt_text](Screenshots/Screenshots/Screenshots/CompletedExperiment.png)
    
-   ![alt_text](AdditionalConfigFroMLExperiment.png)
+   ![alt_text]Screenshots/Screenshots/(Screenshots/Screenshots/AdditionalConfigFroMLExperiment.png)
    
-   ![alt_text](BestModel.png)
+   ![alt_text](Screenshots/BestModel.png)
    
    #Add finished Deployment screenshot
    
@@ -38,9 +34,9 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we Dep
    
    5- Enable "Application Insights" using Python Azure SDK and run it to see the logs:
    
-   ![alt_text](EnabledAppInsights.png)
+   ![alt_text](Screenshots/Screenshots/EnabledAppInsights.png)
   
-   ![alt_text](RunnedLogScript.png)
+   ![alt_text](Screenshots/RunnedLogScript.png)
    
 ### Publish an ML Pipeline
 
