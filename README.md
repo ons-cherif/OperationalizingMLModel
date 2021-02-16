@@ -31,7 +31,8 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    ![alt_text](Screenshots/BestModel.png)
    
-   **- Select the best model, enable  authentication and deploy it using Azure Container Instance (ACI), then enable "Application Insights"** using Python Azure SDK and the logs.py script.Finally, verify the endpoint details from the _endpoints_ section:
+   **- After the Experiment is completed, we need to select the best model and deploy it using Azure Container Instance (ACI). Also, we need to make sure to enable authentication before deploying.
+   Once the deployment is done, we then run the logs.py script using Python Azure SDK or the Git Bash from the VM to enable "Application Insights"** for loogging failures, tracking perfomance and browser or the server usage. Finally, we can verify the endpoint details from the _endpoints_ section as shown in the below screenshots:
    
    ![alt_text](Screenshots/RunnedLogScript.png)
    
@@ -39,11 +40,11 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
 #### 3- Swagger Documentation:
    
-   **- Activate Swagger by running _swagger.sh_ script**: Because we don't have perimissions to use the port _80_ we need to choose another above the _8000_ port, in my case it's _9001_:
+   **- We can use Swagger UI to overview and test the deployed endpoint via the provided methods. Within this project we're just using Swagger Ui to practice how to activate it. To do so, we need to run the _swagger.sh_ script** and because we don't have perimissions to use the port _80_ we need to choose another above the _8000_ port, in my case it's _9001_:
    
    ![alt_text](Screenshots/RunningSwagger.png)
    
-   **- Create an HTTP server** to expose the current working directory via the _serve.py_ script:
+   **- Then we need to create an HTTP server** to expose the current working directory via the _serve.py_ script which going to redirect us to the deployed best model as showing below:
    
    ![alt_text](Screenshots/RunServe.png)
    
