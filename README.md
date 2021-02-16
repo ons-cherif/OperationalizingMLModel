@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Model, configure logging and consume its endpoint by providing a URI and a key using consume tab under the Model pane within the endpoint section on Azure ML. This model is then compared to an Azure ML SDK implementation of the same steps.
+This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Model, configure logging by enablibg "Application Insights" and consume its endpoint by the provided URI and a key from the endpoint details page. Then using the same created Experiment, same cluster and the same already uploaded dataset we created and published a pipeline REST endpoint using the Azure ML SDK within Jupyter.
 
 ## Architectural Diagram
 
@@ -77,10 +77,9 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    **- Pipeline endpoint:** 
    
-   ![alt_text](Screenshots/PipelineEndpoint.png)
+   ![alt_text](Screenshots/EndpointBestModel.png)
    
    **- Bankmarketing dataset with the AutoML module:** 
-   
    
    ![alt_text](Screenshots/DataSetWithAzureMLModels.png)
    
@@ -96,21 +95,23 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    ![alt_text](Screenshots/StetpsRunsWidget.png)
    
    ![alt_text](Screenshots/StetpsRunsWidgetDetails1.png)
+      
+   **- Showing the scheduled run via ML Studio portal :**
    
-   ![alt_text](Screenshots/StetpsRunsWidgetDetails2.png)
+   ![alt_text](Screenshots/RunningPipeGraph.png)
    
-   **- Showing the scheduled and completed run via ML Studio portal :**
-   
-   ![alt_text](Screenshots/PipelineCompletedInML.png)
+   ![alt_text](Screenshots/runningPipe.png)
 
 ## Screen Recording
-  
 
-## A short description of how to improve the project in the future
+  This is the link to my screencast: https://youtu.be/N6rPYo678e0
 
-1 - Consider giving more time for training the model since we were rrestricted to one hour within this project.
+## Future Improvments:
 
+1 - Consider giving more time for training the model since we were restricted to one hour within this project, to go through all possible model combinations and comapare it with this experiment to highlight the changes if there are any.
 
+2 - Enhancing the dataset and deal with the problems of the imbalaced data encountered within project one since we are using the same Bank Marketing dataset.
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+3 - This endpoint is only for learning puposes but I want to make more enhancments like: 
+     -  Using the scaling feature of Azure based on demand 
+     - Add more methods to swagger and enable swagger testing directly from the UI.
