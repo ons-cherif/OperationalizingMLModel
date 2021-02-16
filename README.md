@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Model, configure logging and consume its endpoint by providing a URI and a key using consume tab under the Model pane within the endpoint section on Azure ML. This model is then compared to an Azure ML SDK implementation of the same steps.
+This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Model, configure logging by enablibg "Application Insights" and consume its endpoint by the provided URI and a key from the endpoint details page. Then using the same created Experiment, same cluster and the same already uploaded dataset we created and published a pipeline REST endpoint using the Azure ML SDK within Jupyter.
 
 ## Architectural Diagram
 
@@ -81,7 +81,6 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    
    **- Bankmarketing dataset with the AutoML module:** 
    
-   
    ![alt_text](Screenshots/DataSetWithAzureMLModels.png)
    
    
@@ -104,9 +103,10 @@ This project is part of the Udacity Azure ML Nanodegree. It aims to Deploy a Mod
    ![alt_text](Screenshots/runningPipe.png)
 
 ## Screen Recording
+
   This is the link to my screencast: https://youtu.be/N6rPYo678e0
 
-## A short description of how to improve the project in the future
+## Future Improvments:
 
 1 - Consider giving more time for training the model since we were restricted to one hour within this project, to go through all possible model combinations and comapare it with this experiment to highlight the changes if there are any.
 
